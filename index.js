@@ -30,7 +30,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors({
-  origin: ['https://social-media-wjk3.vercel.app'],
+  origin: ['https://social-media-iota-eight.vercel.app'],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
